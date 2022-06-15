@@ -1,4 +1,5 @@
-﻿using System;
+﻿// https://contest.yandex.ru/contest/25597/run-report/68967337/
+using System;
 
 namespace A_LevenshteinDistance
 {
@@ -9,12 +10,12 @@ namespace A_LevenshteinDistance
             string s1 = Console.ReadLine();
             string s2 = Console.ReadLine();
 
-            var nop = GetNopLength(s1, s2);
+            var result = GetLevenshteinDistance(s1, s2);
 
-            Console.WriteLine(nop);
+            Console.WriteLine(result);
         }
 
-        public static int GetNopLength(string s1, string s2)
+        public static int GetLevenshteinDistance(string s1, string s2)
         {
             int n = s1.Length;
             int m = s2.Length;
