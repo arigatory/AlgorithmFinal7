@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_LevenshteinDistance", "A_LevenshteinDistance\A_LevenshteinDistance.csproj", "{B297EDC2-042C-4D94-83A7-18C8B120F2DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_LevenshteinDistance", "A_LevenshteinDistance\A_LevenshteinDistance.csproj", "{B297EDC2-042C-4D94-83A7-18C8B120F2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_EqualSums", "B_EqualSums\B_EqualSums.csproj", "{6313D541-34A5-4939-984D-A71DF3EFF5C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B297EDC2-042C-4D94-83A7-18C8B120F2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B297EDC2-042C-4D94-83A7-18C8B120F2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B297EDC2-042C-4D94-83A7-18C8B120F2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6313D541-34A5-4939-984D-A71DF3EFF5C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6313D541-34A5-4939-984D-A71DF3EFF5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6313D541-34A5-4939-984D-A71DF3EFF5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6313D541-34A5-4939-984D-A71DF3EFF5C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
